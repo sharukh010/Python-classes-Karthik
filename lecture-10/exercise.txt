@@ -1,0 +1,16 @@
+EX-1: 
+create the following functions 
+use type hints and docstrings 
+1. square_area(lenght)
+2. rectangle_area(length,breadth) 
+4. circle_area(radius) 
+EX-2: 
+create the following functions 
+use type hints and docstrings 
+1. multiplying(num1,num2)
+2. divide(num1,num2)
+3. power(num1,num2)
+Ex-3: 
+create a function to multiply number 
+by default consider num1 and num2 = 1 
+also add variable parameters 
