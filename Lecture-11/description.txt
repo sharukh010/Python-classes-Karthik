@@ -1,0 +1,45 @@
+List - index + items 
+using indexes you can access any element inside list 
+this indexes are fixed this are numerical values (0 to n-1 )
+where n is the length of the list 
+
+
+10 20 30 40 50 
+0   1  2  3  4 
+
+Student details: 
+Name , Age, Gender , DOB , Grade 
+
+you can store them inside a list 
+["karthik",14,"Male","19/06/2012","Year 10"]
+   0        1   2      3            4 
+
+them main usage of list is we can store different data and 
+access it easily with indexes 
+if you don't remember the indexes what is the point of using list 
+
+What if we can have our own custom indexes ? 
+"name" -> get name of the student 
+"age" -> get age of the student 
+"gender" -> get gender of the student 
+"dob" -> get date of birth 
+"grade" -> get grade 
+
+Dictionary: allows you to define custom indexes 
+the custom indexes are called Key's 
+and the data that you store at this keys is calles as values 
+- key-value pairs 
+- mutable data structure (the values can be updates)
+- key: any data type (int,float,string) based on your usecase 
+- value: any data 
+- for dictonary you use curly brackets {} 
+- a dictonary cannot have duplicate keys 
+i.e, 
+{key-1:value-1,key-1:value-2}
+it will not have multiple copies of key-1 instead the value will 
+be updated 
+synatx: {key-1:value-1,key-2:value-2}
+
+# How to access elements in a dictionary : 
+1. dictonaryName[key]
+# How to add elements to the dictonary 

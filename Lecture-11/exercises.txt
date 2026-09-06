@@ -1,0 +1,7 @@
+1. Create a list which store family member details 
+sample input: 
+Name: Karthik 
+Age: 14 
+DOB: 10/12/2012 
+Role: "Elder Son" 
+
