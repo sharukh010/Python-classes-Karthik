@@ -1,0 +1,6 @@
+Take two words from the user 
+and display the following 
+1. comman characters in both words 
+2. all the characters in both words 
+3. characters only from word 1 but not from word 2 
+4. characters only from word 2 but not from word 1 
