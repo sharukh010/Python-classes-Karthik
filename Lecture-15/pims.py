@@ -87,6 +87,7 @@ def perform(choice):
                 print(f"Product with ID {target_id} is not found")
             else: 
                 product["quantity"] = product["stock_capacity"]
+                product["available"] = True 
                 print("Product is Restocked")
         case 4: 
             print("Selling Product: ")
@@ -96,7 +97,7 @@ def perform(choice):
                 print(f"Product with ID {target_id} is not found")
             else: 
                 quantity = int(input("Quantity: "))
-                if product["quantity"] > quantity: 
+                if product["quantity"] < quantity: 
                     print(f"Try Again.Exceeding stock quantity")
                 else: 
                     product["quantity"] -= quantity 
