@@ -6,3 +6,5 @@ nums = [10,20,30,40,50]
 print(len(nums)) # 5 
 for index in range(len(nums)): # 0 to length - 1
     print(nums[index])
+
+    # using loop write a program to find the sum of all the numbers in the list 
