@@ -1,0 +1,12 @@
+Task-1: 
+Create a class for Table
+which has the following properties 
+- height 
+- width 
+- length 
+- number of legs 
+- type ( type of material used metal / wood / plastic) 
+- capacity (how many people can sit 4/6/8/10)
+along with this properties define a method called display 
+it should display all the properties in a formated 
+-> create this class with default constructor 
