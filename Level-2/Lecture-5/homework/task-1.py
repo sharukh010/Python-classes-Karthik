@@ -37,10 +37,16 @@ roll_number = int(input("Roll Number: "))
 name = input("Name: ")
 marks = int(input("Marks: "))
 grade = input("Grade: ")
+
+# printing default values 
 student.display()
+
+# Assigning values to student object 
 student.roll_number = roll_number
 student.name = name 
 student.marks = marks 
 student.grade = grade
+
 print("-"*20)
+# printing student details 
 student.display() 
