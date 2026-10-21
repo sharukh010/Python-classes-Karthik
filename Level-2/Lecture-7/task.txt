@@ -1,0 +1,18 @@
+Create a BikeV0 class 
+- add parameterized constructor when number_of_wheels and fuel is passed while creating an object 
+with the following properties 
+- number of wheels 
+- fuel capacity (0-100)
+the following methods (functions)
+- display()
+- it should print the number of wheels and fuel capacity
+
+create one more class called BikeV1 
+- inherit the BikeV0 class 
+add an additional property
+- battery - (0-100)
+a method (function)
+- charge_battery() 
+- it should update the battery percentage to 100 
+- check_battery() 
+- this will return the battery percentage value 
