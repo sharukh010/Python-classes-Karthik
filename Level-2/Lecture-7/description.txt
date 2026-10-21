@@ -1,0 +1,4 @@
+Different types of inheritence:
+1) Single level inheritence 
+- there will be one parent and one child the child will 
+inheriet properties from the single parent 
