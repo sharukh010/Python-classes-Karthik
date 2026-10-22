@@ -45,7 +45,7 @@ Methods: `calculate_salary()`, `display_details()`
 - Initialize `bonus` and `allowance`, along with all inherited attributes.
 - Create `calculate_salary()` to return the final salary using:
 
-\\[ \text{Final Salary}=\text{Basic Salary}+\text{Bonus}+\text{Allowance} \\]
+* Final Salary = Basic Salary + Bonus + Allowance
 
 \- Create `display_details()` to display all details using the methods inherited from the parent classes and print the final salary.
 
