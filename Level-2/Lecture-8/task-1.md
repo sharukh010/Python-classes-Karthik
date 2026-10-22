@@ -55,7 +55,4 @@ Requirements:
 
 - Use two parent classes and one child class.
 - Use constructors (`__init__`).
-- Practice calling parent constructors using `super()`.
 - Ensure all attributes from both parent classes are accessible through the child object.
-
-Bonus challenge: Initialize both parent classes using cooperative `super()` calls, without explicitly calling `Academic.__init__()` or `Sports.__init__()`.
