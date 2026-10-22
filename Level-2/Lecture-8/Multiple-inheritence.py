@@ -25,8 +25,8 @@ class Mother:
 
 class Child(Father,Mother):
     def __init__(self): 
-        super().__init__()#this is the constructor for father
-        super().__init__()#this is the constructor for mother
+        Father.__init__(self)
+        Mother.__init__(self)
         self.property5 = "football skills"
         self.property6 = "Speak in French"
     def speak_in_frech(self): 
