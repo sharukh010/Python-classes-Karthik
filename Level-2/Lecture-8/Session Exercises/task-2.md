@@ -66,11 +66,3 @@ Bonus: 10000
 Allowance: 5000
 Final Salary: 65000
 ```
-
-### Bonus challenges
-
-1. Use `super()` to initialize the parent classes instead of calling their constructors directly.
-2. Add a method `calculate_annual_salary()` that returns the final monthly salary multiplied by 12.
-3. Create another class, `Director`, that inherits from `Manager` and adds a `stock_bonus` attribute. Calculate the final salary including the stock bonus.
-
-Learning objective: Understand how attributes and methods pass through a chain of inheritance: `Person → Employee → Manager`. Try implementing the program yourself before checking the solution.
