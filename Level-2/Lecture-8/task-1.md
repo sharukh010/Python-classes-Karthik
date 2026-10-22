@@ -33,7 +33,8 @@ Create a Python program using multiple inheritance to represent a student who in
 ### Sample input
 
 ```
-student = Student("Rahul", 85, 90, "Football", 15)student.display_result()
+student = Student("Rahul", 85, 90, "Football", 15)
+student.display_result()
 ```
 
 ### Expected output
