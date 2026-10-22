@@ -52,7 +52,7 @@ Methods: `calculate_salary()`, `display_details()`
 ### Sample input
 
 ```
-manager = Manager(    "Rahul", 30, "EMP101", 50000, 10000, 5000)manager.display_details()
+manager = Manager("Rahul", 30, "EMP101", 50000, 10000, 5000)manager.display_details()
 ```
 
 ### Expected output
