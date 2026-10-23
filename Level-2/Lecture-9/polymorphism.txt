@@ -1,0 +1,17 @@
+Poly + morphism 
+many   forms 
+- describing the behaviour of our methods in our classes 
+1) Method Overloading - (this is mostly observed in parent class or within a class ) 
+- in this the method name will be same but they differe in the number of parameters 
+- compile time polymorphism 
+ex: cal.add(1,2) 
+    cal.add(1,2,3,4) 
+2) Method Overriding - this is usually observed in (child class)
+- Run time polymorphism 
+ex: 
+    cal.add(1,2) -> this method returns the value (parent)
+    cal.add(1,2) -> this is a method from child class , this will print the data directly 
+
+Whenever you try to access any property or method from a object 
+first it will search that property in current class 
+if it is not found their it will check it in the parent class 
