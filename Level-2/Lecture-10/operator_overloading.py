@@ -36,6 +36,25 @@ class Number:
         result = self.value // other.value 
         return Number(result)
 
+    # comparision operators 
+    def __eq__(self,other): 
+        return self.value == other.value 
+
+    def __ne__(self,other): 
+        return self.value != other.value 
+
+    def __lt__(self,other): 
+        return self.value < other.value 
+
+    def __gt__(self,other): 
+        return self.value > other.value 
+
+    def __le__(self,other): # less than or equal to 
+        return self.value <= other.value 
+
+    def __ge__(self,other): 
+        return self.value >= other.value 
+
 
 num1 = Number(10)
 num2 = Number(2)
@@ -47,5 +66,11 @@ num2 = Number(2)
 # print(num1 / num2)
 # print(num1 ** num2)
 # print(num1 % num2)
-print(num1 // num2)
+# print(num1 // num2)
+print(num1 == num2)# 10 == 2 : False
+print(num1 != num2)# 10 != 2 : True 
+print(num1 < num2)# 10 < 2 : False 
+print(num1 > num2)# 10 > 2 : True 
+print(num1 <= num2)# 10 <= 2: False 
+print(num1 >= num2)# 10 >= 2: True 
 
