@@ -1,6 +1,6 @@
 class Number: 
     def __init__(self,value): 
-        if type(value) == int or type(value) == float: 
+        if isinstance(value,(int,float)): 
             self.value = value 
         else: 
             print("Cannot assign value. Please enter a int or float value")
@@ -9,16 +9,31 @@ class Number:
         return str(self.value)
 
     def __add__(self,other): 
-        result = self.value + other.value 
-        return Number(result)
+        if isinstance(other,(int,float)): 
+            return Number(self.value + other)
+        elif isinstance(other,Number): 
+            result = self.value + other.value 
+            return Number(result)
+        else:
+            print(f"+ is not supported between {type(self)} and {type(other)}")
 
     def __sub__(self,other): 
-        result = self.value - other.value 
-        return Number(result)
+        if isinstance(other,(int,float)): 
+            return Number(self.value - other)
+        elif isinstance(other,Number): 
+            result = self.value - other.value 
+            return Number(result)
+        else: 
+            print(f"- is not supported between {type(self)} and {type(other)}")
 
     def __mul__(self,other): 
-        result = self.value * other.value 
-        return Number(result)
+        if isinstance(other,(int,float)): 
+            return Number(self.value * other)
+        elif isinstance(other,Number): 
+            result = self.value * other.value 
+            return Number(result)
+        else: 
+            print(f"* is not supported between {type(self)} and {type(other)}")
 
     def __truediv__(self,other): 
         result = self.value / other.value 
@@ -67,10 +82,12 @@ num2 = Number(2)
 # print(num1 ** num2)
 # print(num1 % num2)
 # print(num1 // num2)
-print(num1 == num2)# 10 == 2 : False
-print(num1 != num2)# 10 != 2 : True 
-print(num1 < num2)# 10 < 2 : False 
-print(num1 > num2)# 10 > 2 : True 
-print(num1 <= num2)# 10 <= 2: False 
-print(num1 >= num2)# 10 >= 2: True 
+# print(num1 == num2)# 10 == 2 : False
+# print(num1 != num2)# 10 != 2 : True 
+# print(num1 < num2)# 10 < 2 : False 
+# print(num1 > num2)# 10 > 2 : True 
+# print(num1 <= num2)# 10 <= 2: False 
+# print(num1 >= num2)# 10 >= 2: True 
+
+print(num1 + 3.5)
 
