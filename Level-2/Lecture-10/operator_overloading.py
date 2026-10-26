@@ -139,5 +139,8 @@ num2 = Number(2)
 # print(num1 > num2)# 10 > 2 : True 
 # print(num1 <= num2)# 10 <= 2: False 
 # print(num1 >= num2)# 10 >= 2: True 
-
+# print(num1 + "python") # this will print the error message 
+# print(num1 + num2)
+# print(num1 + 2)
+print(num1 + 2.5)
 
